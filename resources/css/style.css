@@ -126,9 +126,10 @@ a {
 /******   Footer   ******/
 
 footer .content {
+  display: flex;
+  flex-direction: column;
   height: 200px;
   width: 100%;
-  text-align: center;
 }
 
 .disclosure {
