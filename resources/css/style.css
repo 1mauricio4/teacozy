@@ -21,6 +21,7 @@ header {
 .flex-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 .logo img {
@@ -68,4 +69,29 @@ a {
 .content h2, .content h4 {
   margin: 0px;
   padding: 9px;
+}
+
+/******   Feature Teas   ******/
+
+#featureTea {
+  margin: auto;
+  width: 1000px;
+}
+
+#featureTea .content {
+  width: 100%;
+  margin-top: 69px;
+}
+
+.tea {
+  padding: 16px;
+}
+
+.tea img {
+  height: 200px;
+  width: 300px;
+}
+
+.tea h4 {
+  margin: 10px auto;
 }
