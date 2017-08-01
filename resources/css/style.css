@@ -131,7 +131,8 @@ footer .content {
   justify-content: center;
   align-items: center;
   height: 200px;
-  width: 100%;
+  width: 1200px;
+  margin: auto;
 }
 
 .disclosure {
